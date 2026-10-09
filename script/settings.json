@@ -1,0 +1,12 @@
+{
+    "userguide_path" : "userguide.md",
+    "template_path" : "template.md",
+    "command_path" : "commands.md",
+    "log_name" : "script.log",
+    "custom_snippets_path" : ".vscode/customcommand.code-snippets",
+    "configs_dir" : "Configs",
+    "compiled_suffix" : "_res",
+    "icon_dir" : "Icons/",
+    "diagram_dir" : "Diagrams/",
+    "image_extension" : ".png"
+}

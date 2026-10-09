@@ -1,0 +1,114 @@
+{
+    "Filter": {
+        "name": "Filter",
+        "fields": [
+            "Item (Singular)",
+            "Listing Opening Template",
+            "Filter Diagram",
+            "Additional Information",
+            "Table data"
+        ],
+        "format": "\nIf you want to quickly search for a {Item (Singular)}, you can use the filters to narrow down your search.\n\n\\\"template:{Listing Opening Template}\"\\\n\n    \\\"diagram:{Filter Diagram}:80\"\\\n\n1) At the top of the screen, fill in any filter you would like to search for. {Additional Information}\nHere is a brief description of each filter:\n\n    <div class=\"filter-table\">\n        <div class=\"filter-table-header\">Filter field</div>\n        <div class=\"filter-table-header\">Filter description</div>\n        {Table data}\n    </div>\n\n1) Once you fill in the filters, click \\\"uisvg:primary:refresh:Refresh\"\\ to filter the table.\n\n\\\"box:tip:Want more screen space?:\nClick \\\"icon:Hide\"\\ on the top right corner of your screen to hide the filters.\nThis shows more space to view {Item (Singular)} data. Click \\\"icon:Show\"\\ on the top right corner of your screen to show the filters.\n\"\\\n"
+    },
+    "No Table Filter": {
+        "name": "No Table Filter",
+        "fields": [
+            "Item (Singular)",
+            "Listing Opening Template",
+            "Filter Diagram",
+            "Additional Information"
+        ],
+        "format": "\nIf you want to quickly search for a {Item (Singular)}, you can use the filters to narrow down your search.\n\n\\\"template:{Listing Opening Template}\"\\\n\n    \\\"diagram:{Filter Diagram}:80\"\\\n\n1) At the top of the screen, fill in any filter you would like to search for. {Additional Information}\n1) Once you fill in the filters, click \\\"uisvg:primary:refresh:Refresh\"\\ to filter the table.\n\n\\\"box:tip:Want more screen space?:\nClick \\\"icon:Hide\"\\ on the top right corner of your screen to hide the filters.\nThis shows more space to view {Item (Singular)} data. Click \\\"icon:Show\"\\ on the top right corner of your screen to show the filters.\n\"\\"
+    },
+    "Listing Overview": {
+        "name": "Listing Overview",
+        "fields": [
+            "verbose and accessing list instructions",
+            "Listing Diagram",
+            "Extra Filter Information",
+            "Table Name (Capitalised)",
+            "Item (Singular)",
+            "Additional Table Information",
+            "Table data"
+        ],
+        "format": "\n{verbose and accessing list instructions}\nThe following menu will appear on your screen:\n\\\"diagram:{Listing Diagram}:100\"\\\n\n<ol class=\"step-circle\">\n  <li> <div> Filters \u2013 Set filters here to narrow down your search. {Extra Filter Information}. </div> </li>\n  <li> Hide/show button \u2013 Click to hide or show the filters and action buttons to get more screen space. Click again to bring them back.</li>\n  <li> Action buttons</li>\n  <li> Table columns \u2013 Descriptions listed on the next page.</li>\n  <li> {Table Name (Capitalised)} table \u2013 The {Item (Singular)} data are ordered from most recently created to least recent. {Additional Table Information}</li>\n</ol>\n\n<div class=\"page-break\"></div>\n\nHere are additional column descriptions. Note that any blue text can be clicked to perform an action:\n<div class=\"filter-table\">\n  <div class=\"filter-table-header\">Column</div>\n  <div class=\"filter-table-header\">Information Displayed</div>\n    {Table data}\n</div>\n"
+    },
+    "No Table Listing Overview": {
+        "name": "No Table Listing Overview",
+        "fields": [
+            "verbose and accessing list instructions",
+            "Listing Diagram",
+            "Extra Filter Information",
+            "Table Name (Capitalised)",
+            "Item (Singular)",
+            "Additional Table Information"
+        ],
+        "format": "\n{verbose and accessing list instructions}\nThe following menu will appear on your screen:\n\\\"diagram:{Listing Diagram}:100\"\\\n\n<ol class=\"step-circle\">\n  <li> <div> Filters \u2013 Set filters here to narrow down your search. {Extra Filter Information}. </div> </li>\n  <li> Hide/show button \u2013 Click to hide or show the filters and action buttons to get more screen space. Click again to bring them back.</li>\n  <li> Action buttons</li>\n  <li> Table columns</li>\n  <li> {Table Name (Capitalised)} table \u2013 The {Item (Singular)} data are ordered from most recently created to least recent. {Additional Table Information}</li>\n</ol>\n"
+    },
+    "No Filter Listing Overview": {
+        "name": "No Filter Listing Overview",
+        "fields": [
+            "verbose and accessing list instructions",
+            "Listing Diagram",
+            "Table Name (Capitalised)",
+            "Item (Singular)",
+            "Table data"
+        ],
+        "format": "\n{verbose and accessing list instructions}\nThe following menu will appear on your screen:\n\\\"diagram:{Listing Diagram}:100\"\\\n\n<ol class=\"step-circle\">\n  <li> Hide/show actions button \u2013 Click to hide or show the action buttons to get more screen space. Click again to bring back the action buttons.</li>\n  <li> Action buttons</li>\n  <li> Table columns \u2013 Descriptions listed on the next page.</li>\n  <li> {Table Name (Capitalised)} table \u2013 The {Item (Singular)} data are ordered from most recently created to least recent.</li>\n</ol>\n\n<div class=\"page-break\"></div>\n\nHere are additional column descriptions. Note that any blue text can be clicked to perform an action:\n\n<div class=\"filter-table\">\n  <div class=\"filter-table-header\">Column</div>\n  <div class=\"filter-table-header\">Information Displayed</div>\n    {Table data}\n</div>\n"
+    },
+    "Add Registration": {
+        "name": "Add Registration",
+        "fields": [
+            "Open Listing Template",
+            "Add Button Icon",
+            "form information diagram"
+        ],
+        "format": "\n\\\"template:{Open Listing Template}\"\\\n1) Click \\\"icon:{Add Button Icon}\"\\.\n\\\"diagram:{form information diagram}:60\"\\\n\\\"template:Form Filling\"\\\n1) Click \\\"ui:old:Submit\"\\ to submit details.\n\n\\\"box:warn:Note:\nIf you don't see the event to register for, make sure that it is currently in the event registration period.\nYou can refer to the section \"Viewing events or courses\" for more information. \"\\\n"
+    },
+    "User Profile View": {
+        "name": "User Profile View",
+        "fields": [
+            "Profile Tab"
+        ],
+        "format": "\n\\\"template:View User Profile\"\\\n1) Click the {Profile Tab} tab\n\\\"diagram:Click {Profile Tab}:90\"\\\n1) The following form will appear.\n\\\"diagram:{Profile Tab} View:80\"\\"
+    },
+    "Profile View": {
+        "name": "Profile View",
+        "fields": [
+            "Profile Tab"
+        ],
+        "format": "\n\\\"template:View User Profile\"\\\n1) Click the <b>{Profile Tab}</b> tab.\n\\\"diagram:Click {Profile Tab}:70\"\\"
+    },
+    "View Form": {
+        "name": "View Form",
+        "fields": [
+            "Open Listing Template Name",
+            "Link to Click",
+            "data name",
+            "Diagram Name"
+        ],
+        "format": "\n\\\"template:{Open Listing Template Name}\"\\\n1) Click on \"{Link to Click}\" next to the {data name} you want to view.\n\\\"diagram:{Diagram Name}:40\"\\"
+    },
+    "Export Listing": {
+        "name": "Export Listing",
+        "fields": [
+            "Item (Singular)",
+            "Open Listing Template Name"
+        ],
+        "format": "\nIf you would like to download the {Item (Singular)} records for reporting purposes, you can use the export feature to download a Microsoft Excel file with the {Item (Singular)} records.\n\\\"template:{Open Listing Template Name}\"\\\n1) Above the table, click \\\"uisvg:primary:export:Export\"\\.\n1) An Excel file will be downloaded to your device.\n\n\\\"box:tip:Exporting a subset:\nTo export only certain {Item (Singular)} records, filter your results first, then export.\"\\\n"
+    },
+    "Edit Batch Action": {
+        "name": "Edit Batch Action",
+        "fields": [
+            "Action (Present)"
+        ],
+        "format": "\n\\\"template:Open Batch Donation Listing\"\\\n1) From the batch records, find the batch you want to {Action (Present)}.\n\\\"diagram:Edit Donation Batch:40\"\\\n    \\\"box:tip:Struggling to find your batch?:\n    Use filters to quickly search for the donation batch you need.\"\\\n"
+    },
+    "View Batch Action": {
+        "name": "View Batch Action",
+        "fields": [
+            "Action (Present)"
+        ],
+        "format": "\n\\\"template:Open Batch Donation Listing\"\\\n1) From the batch records, find the batch you want to {Action (Present)}.\n\\\"diagram:View Donation Batch:60\"\\\n    \\\"box:tip:Struggling to find your batch?:\n    Use filters to quickly search for the donation batch you need.\"\\\n"
+    }
+}

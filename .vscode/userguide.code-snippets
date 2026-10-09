@@ -1,0 +1,148 @@
+{
+  "Icon shorthand": {
+    "scope": "markdown",
+    "prefix": "icon",
+    "body": [
+      "\\\"icon:${1:Donation}\"\\"
+    ],
+    "description": "Insert icon shorthand (expands via icons.json)"
+  },
+  "Diagram shorthand": {
+    "scope": "markdown",
+    "prefix": "diagram",
+    "body": [
+      "\\\"diagram:${1:HomeMenu}:${2:80}\"\\"
+    ],
+    "description": "Insert diagram shorthand (expands via diagrams.json)"
+  },
+  "Template shorthand": {
+    "scope": "markdown",
+    "prefix": "template",
+    "body": [
+      "\\\"template:${1:edit}\"\\"
+    ],
+    "description": "Insert template shorthand (expands via template.json)"
+  },
+  "Box shorthand": {
+    "scope": "markdown",
+    "prefix": "box",
+    "body": [
+      "\\\"box:${1|tip,warn,danger|}:${2:Title}:\n${3:Body text}\"\\"
+    ],
+    "description": "Insert box shorthand (tip/warning/danger callout)"
+  },
+  "UI shorthand": {
+    "scope": "markdown",
+    "prefix": "ui",
+    "body": [
+      "\\\"ui:${1|primary,old,gray-old,green-old,blue-old,sidemenu-category,sidemenu-option|}:${2:Label}\"\\"
+    ],
+    "description": "Insert CSS-drawn UI element, text only (styles must match ui.json keys)"
+  },
+  "UI SVG shorthand": {
+    "scope": "markdown",
+    "prefix": "uisvg",
+    "body": [
+      "\\\"uisvg:${1|primary,old,gray-old,green-old,blue-old,sidemenu-category,sidemenu-option|}:${2|refresh,contacts,communications,volunteer,donation,eft,event,setup,filter,more-options,add,export,delete,cancel,check,copy,send,upload|}:${3:Label}\"\\"
+    ],
+    "description": "Insert CSS-drawn UI element with icon (icons must match .svg-* rules in styles.css)"
+  },
+  "UI icon-only shorthand": {
+    "scope": "markdown",
+    "prefix": "uiicon",
+    "body": [
+      "\\\"uiicon:${1|primary,old,gray-old,green-old,blue-old,sidemenu-category,sidemenu-option|}:${2|refresh,contacts,communications,volunteer,donation,eft,event,setup,filter,more-options,add,export,delete,cancel,check,copy,send,upload|}\"\\"
+    ],
+    "description": "Insert CSS-drawn UI element with an icon and no text (icons must match .svg-* rules in styles.css)"
+  },
+  "Pagebreak shorthand": {
+    "scope": "markdown",
+    "prefix": "page",
+    "body": [
+      "<div class=\"page-break\"></div>"
+    ],
+    "description": "Insert pagebreak shorthand"
+  },
+
+  "Section shorthand": {
+    "scope": "markdown",
+    "prefix": "section",
+    "body": [
+      "\\\"section:${1:Section Title}:${2:Section Body Text}\"\\"
+    ],
+    "description": "Insert section shorthand for template loading"
+  },
+
+  "diagram ordered list": {
+    "scope": "markdown",
+    "prefix": "ol",
+    "body": [
+      "<ol class=\"step-circle\">\n  <li>${1:UI 1}</li>\n  <li>${2:UI 2}</li>\n  <li>${3:UI 3}</li>\n</ol>"
+    ],
+    "description": "Insert diagram ordered list template"
+  },
+
+  "list item": {
+    "scope": "markdown",
+    "prefix": "li",
+    "body": [
+      "<li>${1:List item}</li>"
+    ],
+    "description": "Insert list item template"
+  },
+
+  "arrow": {
+    "scope": "markdown",
+    "prefix": "arrow",
+    "body": [
+      "→"
+    ],
+    "description": "Insert arrow icon"
+  },
+
+  "table": {
+    "scope": "markdown",
+    "prefix": "table",
+    "body": [
+      "<div class=\"filter-table\">\n  <div class=\"filter-table-header\">${1:Header 1}</div>\n  <div class=\"filter-table-header\">${2:Header 2}</div>\n  <div class=\"filter-table-label\">${3:Row label}</div>\n  <div>${4:Content}</div>\n</div>"
+    ],
+    "description": "Insert grid filter-table template"
+  },
+
+  "table row": {
+    "scope": "markdown",
+    "prefix": "tablerow",
+    "body": [
+      "<div class=\"filter-table-label\">${1:Row label}</div>\n<div>${2:Content}</div>"
+    ],
+    "description": "Insert grid filter-table row template"
+  },
+
+  "command": {
+    "scope": "markdown",
+    "prefix": "command",
+    "body": [
+      "!\"command:${1:Command Name}:\n${2:Command Format}\"!"
+    ],
+    "description": "Insert custom command" 
+  },
+
+  "field":  {
+    "scope": "markdown",
+    "prefix": "field",
+    "body": [
+      "\\\"field:${1:field name}\"\\"
+    ],
+    "description": "Insert field for custom commands"
+  },
+
+  "no-break": {
+    "scope": "markdown",
+    "prefix": "nobreak",
+    "body": [
+      "<h2 class=\"no-break\" id=${1:header_id}>${2:content}</h2>"
+    ],
+    "description": "Insert non page break header"
+  }
+
+}

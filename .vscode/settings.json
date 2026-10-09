@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "ACMI",
+        "Benevity",
+        "Bizcube",
+        "CHARITAS",
+        "Followup",
+        "HSAR",
+        "NRIC",
+        "Organisation",
+        "Organisations",
+        "PAYNOW",
+        "PDPA",
+        "userguide"
+    ],
+    "cSpell.language": "en-GB",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "template": {
+    "fields": ["template"],
+    "prefix": "template",
+    "lookup": "template.json",
+    "format": "{template}"
+  },
+
+  "icon": {
+  "fields": ["file"],
+  "prefix": "icon",
+  "lookup": "icons.json",
+  "format": "<img src=\"Icons/{file}\" class=\"icon-inline\"/>"
+  },
+
+  "diagram": {
+    "fields": ["file", "width"],
+    "prefix": "diagram",
+    "lookup": "diagrams.json",
+    "format": "<img src=\"Diagrams/{file}\" class=\"diagram\" style=\"width: {width}%;\" />"
+  },
+
+  "ui": {
+    "fields": ["style", "label"],
+    "prefix": "ui",
+    "lookup": "ui.json",
+    "format": "<span class=\"ui ui-{style}\"><span class=\"ui-label\">{label}</span></span>"
+  },
+
+  "uisvg": {
+    "fields": ["style", "svg", "label"],
+    "prefix": "uisvg",
+    "lookup": "ui.json",
+    "format": "<span class=\"ui ui-{style}\"><span class=\"ui-label\"><i class=\"ui-svg svg-{svg}\"></i>{label}</span></span>"
+  },
+
+  "uiicon": {
+    "fields": ["style", "svg"],
+    "prefix": "uiicon",
+    "lookup": "ui.json",
+    "format": "<span class=\"ui ui-{style} ui-icon-only\"><span class=\"ui-label\"><i class=\"ui-svg svg-{svg}\"></i></span></span>"
+  },
+
+  "box": {
+    "fields": ["type", "title", "content"],
+    "prefix": "box",
+    "lookup": "box.json",
+    "format": "<div class=\"box {type}-box\">\n  <div class=\"{type}-content\">\n    <div class=\"{type}-title\">{title}</div>\n    {content}\n  </div>  \n</div>"
+  }
+
+}

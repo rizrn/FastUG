@@ -1,0 +1,21 @@
+# Claude Code
+CLAUDE.md
+.claude/
+
+# Generated export artifacts
+userguide.html
+userguide.pdf
+*_res.md
+
+# Python / logs
+__pycache__/
+*.log
+
+# Packaged skill
+userguide-prose-review-skill.zip
+
+# Icons / Diagrams to ignore (uncomment and edit once decided)
+# Icons/ExampleIcon.png
+# Diagrams/ExampleDiagram.png
+# Icons/*.png
+# Diagrams/*.png
