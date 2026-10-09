@@ -18,3 +18,13 @@ puppeteer:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+
+# Searching for a page
+
+1) Click the search bar at the top of the page and type the name of the page you are looking for, e.g. Tabby cat.
+1) Click \"icon:Search"\ to start the search.
+1) The page will open on your screen:
+\
+\"diagram:UG example:80"\
+
+\"box:tip:Tip:You can also press Enter instead of clicking \"icon:Search"\."\

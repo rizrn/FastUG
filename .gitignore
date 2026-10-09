@@ -14,8 +14,3 @@ __pycache__/
 # Packaged skill
 userguide-prose-review-skill.zip
 
-# Icons / Diagrams to ignore (uncomment and edit once decided)
-# Icons/ExampleIcon.png
-# Diagrams/ExampleDiagram.png
-# Icons/*.png
-# Diagrams/*.png
