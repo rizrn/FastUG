@@ -20,5 +20,6 @@
             "comments": "on",
             "strings": "on"
         }
-    }
+    },
+    "markdown-preview-enhanced.breakOnSingleNewLine": false
 }
